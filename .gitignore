@@ -1,11 +1,11 @@
-syntax: glob
-
-bin
-parts
-.installed.cfg
 *.egg-info
 *.pyc
 *~
+.*.swp
+.installed.cfg
+.tox
+.coverage
+bin
 develop-eggs
 dist
-.*.swp
+parts
