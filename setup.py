@@ -3,15 +3,20 @@ import os
 
 version = '0.2.dev0'
 
+
 def read(*rnames):
-    return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
+    """Read file content."""
+    with open(os.path.join(os.path.dirname(__file__), *rnames))as f:
+        return f.read()
+
 
 long_description = (
-    read('README.txt')
+    read('README.rst')
     + '\n' +
-    read('js', 'smoke', 'test_smoke.txt')
+    read('js', 'smoke', 'test_smoke.rst')
     + '\n' +
-    read('CHANGES.txt'))
+    read('CHANGES.rst'))
+
 
 setup(
     name='js.smoke',
@@ -30,10 +35,10 @@ setup(
     install_requires=[
         'fanstatic',
         'setuptools',
-        ],
+    ],
     entry_points={
         'fanstatic.libraries': [
             'smoke = js.smoke:library',
-            ],
-        },
-    )
+        ],
+    },
+)
