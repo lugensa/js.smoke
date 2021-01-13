@@ -16,5 +16,5 @@ theme_tiger = fanstatic.Resource(
 
 css = fanstatic.Slot(library, '.css', default=base_css)
 
-smoke_js = fanstatic.Resource(library, 'smoke.js', minified='smoke.min.js', depends=[css])
-
+smoke_js = fanstatic.Resource(
+    library, 'smoke.js', minified='smoke.min.js', depends=[css])
