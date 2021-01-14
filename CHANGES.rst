@@ -4,9 +4,9 @@ CHANGES
 0.2 (unreleased)
 ================
 
-- Nothing changed yet.
-
 - Migrate to Github.
+
+- Use GitHub actions as CI.
 
 
 0.1 (2013-03-08)

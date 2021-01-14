@@ -2,10 +2,11 @@
 *.pyc
 *~
 .*.swp
+.coverage
 .installed.cfg
 .tox
-.coverage
 bin
+coverage-report
 develop-eggs
 dist
 parts
