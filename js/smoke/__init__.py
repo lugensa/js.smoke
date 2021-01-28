@@ -1,5 +1,6 @@
 import fanstatic
 
+
 library = fanstatic.Library('smoke', 'resources')
 
 base_css = fanstatic.Resource(

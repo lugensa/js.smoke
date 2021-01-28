@@ -11,4 +11,3 @@ This library packages `smoke.js`_ for `fanstatic`_.
 
 This requires integration between your web framework and ``fanstatic``,
 and making sure that the original smoke.js is published to some URL.
-
