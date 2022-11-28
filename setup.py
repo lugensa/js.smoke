@@ -25,7 +25,12 @@ setup(
     version=version,
     description="fanstatic smoke.js.",
     long_description=long_description,
-    classifiers=[],
+    classifiers=[
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+    ],
     keywords='',
     author='Fanstatic Developers',
     author_email='fanstatic@googlegroups.com',
